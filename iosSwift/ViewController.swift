@@ -10,21 +10,36 @@ import UIKit
 
 class ViewController: UIViewController {
     
-  
-
-    @IBAction func clickButton(_ sender: UIButton) {
-    flipCard(withEmoji : "👻",on : sender)
+    var flipCount = 0
+    {
+        didSet {
+            
+            flipCountNumber.text = "Flips: \(flipCount)"
+        }
+        
+        
     }
-        func flipCard(withEmoji emoji:String, on button: UIButton){
-            if button.currentTitle == "👻" {
-                button.setTitle("☃️", for:.normal)
-                UIView.transition(with: button, duration: 1, options: .transitionFlipFromBottom, animations: {
-                    
-                }, completion: { (success) in
-                    
-                })
-                
-            }
+
+    @IBOutlet weak var flipCountNumber: UILabel!
+    @IBAction func touchFirtButton(_ sender: UIButton) {
+        flipCount += 1
+        flipCard(withEmoji : "👻",on : sender)
+    }
+    @IBAction func touchSecondButton(_ sender: UIButton) {
+        flipCount += 1
+        flipCard(withEmoji : "🐶",on : sender)
+    }
+    func flipCard(withEmoji emoji:String, on button: UIButton){
+            if button.currentTitle == emoji {
+                button.setTitle("", for:.normal)
+                button.backgroundColor = #colorLiteral(red: 0.9254902005, green: 0.5174844981, blue: 0.09545681811, alpha: 1)
+        }
+            else {
+                button.setTitle(emoji, for: .normal)
+                button.backgroundColor = #colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)
+        }
+        
+    
             
             /*
              [UIView transitionWithView:flipContainerView
@@ -47,6 +62,5 @@ class ViewController: UIViewController {
         }
         
     }
-    
 
 
