@@ -14,6 +14,8 @@
 		7DB5A4411FF0B6C30079C5A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DB5A43F1FF0B6C30079C5A3 /* LaunchScreen.storyboard */; };
 		7DB5A44C1FF0B6C40079C5A3 /* iosSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB5A44B1FF0B6C40079C5A3 /* iosSwiftTests.swift */; };
 		7DB5A4571FF0B6C40079C5A3 /* iosSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB5A4561FF0B6C40079C5A3 /* iosSwiftUITests.swift */; };
+		7DB5A4651FF11FC20079C5A3 /* MainModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB5A4641FF11FC20079C5A3 /* MainModel.swift */; };
+		7DB5A4671FF1208F0079C5A3 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB5A4661FF1208F0079C5A3 /* Card.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		7DB5A4521FF0B6C40079C5A3 /* iosSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iosSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DB5A4561FF0B6C40079C5A3 /* iosSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iosSwiftUITests.swift; sourceTree = "<group>"; };
 		7DB5A4581FF0B6C40079C5A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DB5A4641FF11FC20079C5A3 /* MainModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainModel.swift; sourceTree = "<group>"; };
+		7DB5A4661FF1208F0079C5A3 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 				7DB5A4361FF0B6C30079C5A3 /* AppDelegate.swift */,
 				7DB5A4381FF0B6C30079C5A3 /* ViewController.swift */,
 				7DB5A43A1FF0B6C30079C5A3 /* Main.storyboard */,
+				7DB5A4641FF11FC20079C5A3 /* MainModel.swift */,
+				7DB5A4661FF1208F0079C5A3 /* Card.swift */,
 				7DB5A43D1FF0B6C30079C5A3 /* Assets.xcassets */,
 				7DB5A43F1FF0B6C30079C5A3 /* LaunchScreen.storyboard */,
 				7DB5A4421FF0B6C30079C5A3 /* Info.plist */,
@@ -261,6 +267,8 @@
 			files = (
 				7DB5A4391FF0B6C30079C5A3 /* ViewController.swift in Sources */,
 				7DB5A4371FF0B6C30079C5A3 /* AppDelegate.swift in Sources */,
+				7DB5A4651FF11FC20079C5A3 /* MainModel.swift in Sources */,
+				7DB5A4671FF1208F0079C5A3 /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
