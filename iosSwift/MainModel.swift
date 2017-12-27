@@ -8,11 +8,18 @@
 
 import Foundation
 
-class MainModel{
-    var cards: Array<Card>
+class MainModel
+{
+    var cards =  [Card] ()
     
     func chooseCard(at index: Int) {
          
     }
     
+    init(numberOfPairsOfCards : Int) {
+        
+        
+    }
+    
 }
+ 

@@ -10,6 +10,8 @@ import UIKit
 
 class ViewController: UIViewController {
     
+//    var game = MainModel()
+    
     var flipCount = 0
     {
         didSet {

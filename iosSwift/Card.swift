@@ -11,6 +11,7 @@ import Foundation
 
 struct Card
 {
-     
-    
+    var isFaceUP = false
+    var isMatched = false
+    var identifier: Int
 }
